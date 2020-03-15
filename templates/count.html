@@ -1,0 +1,9 @@
+<h1>Your Text Is</h1>
+{{fulltext}}
+<h1>Length of your text is {{count}}</h1>
+
+{% for word,count1 in worddictionary %}
+{{word}} - {{count1}}
+<br/>
+{% endfor %}
+
